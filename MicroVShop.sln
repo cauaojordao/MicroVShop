@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroVShop.ProductAPI", "MicroVShop.ProductAPI\MicroVShop.ProductAPI.csproj", "{47516B54-8C30-4728-A70F-B9A16BAD4983}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroVShop.Web", "MicroVShop.Web\MicroVShop.Web.csproj", "{AEDC9D53-B4C1-479E-A23B-92012BDC6D7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{47516B54-8C30-4728-A70F-B9A16BAD4983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47516B54-8C30-4728-A70F-B9A16BAD4983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47516B54-8C30-4728-A70F-B9A16BAD4983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDC9D53-B4C1-479E-A23B-92012BDC6D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDC9D53-B4C1-479E-A23B-92012BDC6D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDC9D53-B4C1-479E-A23B-92012BDC6D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDC9D53-B4C1-479E-A23B-92012BDC6D7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
