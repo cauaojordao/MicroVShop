@@ -40,9 +40,9 @@ public class ProductController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(int id, ProductDto dto)
+    public async Task<IActionResult> Update(ProductDto dto)
     {
-        if (id != dto.Id)
+        if (dto == null || dto.Id <= 0)
             return BadRequest();
         await _productService.UpdateAsync(dto);
         return NoContent();

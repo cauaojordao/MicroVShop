@@ -1,4 +1,4 @@
-namespace WebApplication1.Models;
+namespace MicroVShop.Web.Models;
 
 public class ErrorViewModel
 {

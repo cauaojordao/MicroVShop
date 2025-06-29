@@ -1,8 +1,8 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication1.Models;
+using MicroVShop.Web.Models;
 
-namespace WebApplication1.Controllers;
+namespace MicroVShop.Web.Controllers;
 
 public class HomeController : Controller
 {

@@ -1,7 +1,17 @@
+using MicroVShop.Web.Services;
+using MicroVShop.Web.Services.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient("ProductAPI", client =>
+{
+    client.BaseAddress = new Uri(builder.Configuration["ServiceUri:ProductAPI"]);
+});
+
+builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 

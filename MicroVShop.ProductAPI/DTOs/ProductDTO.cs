@@ -16,6 +16,8 @@ namespace MicroVShop.DTOs
 
         [Required(ErrorMessage = "O ID da categoria é obrigatório.")]
         public int CategoryId { get; set; }
+        
+        public string? CategoryName { get; set; }
 
         [StringLength(500, ErrorMessage = "A descrição deve ter no máximo 500 caracteres.")]
         public string? Description { get; set; }
